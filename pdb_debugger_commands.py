@@ -20,3 +20,6 @@
 # cl          : clear all break point
 # cl[int]     : clear break point at line number
 # p           : print
+
+# Note: Use pudb package for semi-graphical debugger.
+# pip install pudb

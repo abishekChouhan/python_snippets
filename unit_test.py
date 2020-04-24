@@ -1,3 +1,17 @@
+'''
+    To run the test:
+        python test_thisfile.py
+
+    Note:
+    The unittest module can be used from the command line to run
+    tests from modules, classes or even individual test methods:
+        python -m unittest test_module1 test_module2
+        python -m unittest test_module.TestClass
+        python -m unittest test_module.TestClass.test_method
+    if __name__=='__main__': unittest.main()   --> is not required in this case.
+'''
+
+
 import unittest
 
 
@@ -74,6 +88,7 @@ class TestMyClass(unittest.TestCase):
 
 
 # Unit test can bb run using command line interface
-# for that comment the below code and run by 'python -m unittest this_file_name.py'
+# for that comment the below code and run by 'python -m unittest test_thisfile.py'
+# Note: dont use ' python -m unittest ./test_thisfile.py'
 # if __name__ == '__main__':
 #     unittest.main()
